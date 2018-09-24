@@ -1,5 +1,5 @@
-variable "github_repository_webhook_url" {
-  description = "The repository of the webhook"
+variable "atlantis_url" {
+  description = "URL where atlantis can be accessed"
 }
 
 variable "github_repository_webhook_insecure_ssl" {
